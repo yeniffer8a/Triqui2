@@ -11,9 +11,8 @@ pool:
 
 steps:
 - task: Maven@3
-  displayName: 'Maven app/pom.xml'
   inputs:
-    mavenPomFile: 'app/pom.xml'
+    mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
