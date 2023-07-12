@@ -53,7 +53,7 @@ public class Triqui {
         int fila, columna;
         boolean posvalida, correcto;
 
-        while (!fin_partida(tablero, guion)) {
+        while  (!fin_partida(tablero, guion)) {
 
             do {
                 mostrar_Turno_Actual(turno);
