@@ -39,7 +39,8 @@ public class Triqui {
             default:
                 Salir(matriz);
 
-        }//finsegun
+       
+            }//finsegun
 
     }//finprincipal
 
